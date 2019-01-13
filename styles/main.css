@@ -1,50 +1,120 @@
-header {
-  background: url(../images/hero.jpg) center / cover;
-  height: 60vh;
-  justify-content: center;
-  text-align: left;
-  text-indent: 40px;
-}
-h1 {
-  color: hsla(125, 26%, 19%, 0.9);
-  font-weight: bold;
-}
-
-.slogan {
-  color: hsla(237, 36%, 24%, 0.7);
-  font-weight: lighter;
-  font-size: 1.6rem;
-}
-
-main {
-  mac-width: 900px;
-}
-
-.project-description{
-  padding-left: 0;
-}
-
-.project img{
-  width: 100%;
-}
-
-footer.mdl-mini-footer{
-  bottom: 0;
-  padding: 0.5rem;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-
-footer.mdl-mini-footer >ul{
-  margin: auto;
-  font-size: 2rem;
-}
-@media screen and (max-wdith: 1024px){
+@media screen and (max-width: 1024px){
   header.mdl-layout__header{
     display: flex;
   }
+
 }
-body{
-  padding-bottom: 5rem;
+header{
+  justify-content: center;
+  max-width: 1200px;
+}
+
+
+
+.portfolio-header{
+  width: 100%;
+  padding: 0;
+  background-color: #ffffff;
+
+
+}
+.mdl-grid{
+justify-content: center;
+
+}
+
+
+
+.hero > h1{
+  color: #2F3438;
+  font-weight: bold;
+  font-family: Lato;
+  font-size: 40px;
+  width:600px;
+  letter-spacing: 2px;
+}
+
+.app-icons{
+  list-style: none;
+  width: auto;
+}
+
+.column{
+
+    flex-direction: column-reverse;
+    right:0px;
+    height: inherit;
+
+}
+
+.projects{
+  width: 100%;
+}
+
+
+
+.hero{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.portfolio-hero{
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+.projects-item{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.case-study{
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.projects-header{
+  color: #2F3438;
+  font-weight: bold;
+  font-family: Cormorant;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.case-study-description{
+  display: flex
+  flex-wrap: wrap;
+}
+
+.case-study-description > h2{
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: Light;
+  margin: 5px;
+}
+.case-study-description >h1{
+  font-family: Cormorant;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 5px;
+}
+.case-study-link{
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 200px;
+  color: #3A559F;
+  padding-left: 4px;
+}
+
+main {
+  max-width: 1200px;
 }
