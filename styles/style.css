@@ -1,6 +1,7 @@
-@media screen and (max-width: 1024px){
-  header.mdl-layout__header{
-    display: flex;
+@media screen (max-width: 1200px){
+  .conainer{
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -8,7 +9,7 @@
 
 .container{
   max-width: 1200px;
-  padding: 0px;
+
   font-family: Lato;
   font-size: 18px;
 
@@ -22,22 +23,6 @@
   padding: 0px;
 }
 
-.footer{
-  background-color: #F5F8FA;
-  margin: 0px;
-}
-.footer h1{
-  color:  #2F3438;
-  font-size: 40px;
-  padding-top: 75px;
-  padding-bottom: 24px;
-}
-
-.footer p{
-  color: #E09B3D;
-  text-decoration-line: underline;
-  padding-bottom: 24px;
-}
 
 section{
   padding-bottom: 150px;
@@ -55,6 +40,23 @@ section{
 }
 .container div{
   padding: 0px;
+}
+
+.footer{
+  background-color: #F5F8FA;
+  margin: 0px;
+}
+.footer h1{
+  color:  #2F3438;
+  font-size: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.footer p{
+  color: #E09B3D;
+  text-decoration-line: underline;
+  padding-bottom: 24px;
 }
 
 /*homepage*/
